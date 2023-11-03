@@ -1,0 +1,23 @@
+---
+title: 'Proceso de Reclutamiento Fuddy - Armado de equipo'
+date: '2023-09-29'
+author: "Agustín"
+image: "https://res.cloudinary.com/dcu06etml/image/upload/v1699050256/portolio-personal/blog/lufg3s5iozzaaxicp8fk.jpg"
+
+
+---
+
+## **En este viaje reclutando para Fuddy, he acumulado valiosas lecciones que quiero compartir.**
+
+- **Entusiasmo vs. Conocimiento:**
+Descubrí que en el reclutamiento para mi proyecto, Fuddy, el entusiasmo vale más que el conocimiento técnico. Pero no subestimemos el conocimiento, es el camino que nos guía.
+
+- **Leer y Seguir Instrucciones:** ¡Atención a los detalles! Durante el proceso de reclutamiento para Fuddy, noté que la gente a menudo no lee las instrucciones y pierde tiempo innecesario.
+
+- **Buscando el Equipo Ideal:** Un equipo ideal no se encuentra, ¡se construye! En Fuddy, aprendí que no existe un equipo perfecto preexistente.
+
+- **El Valor de una Idea:** Las ideas por sí solas no tienen valor. Lo que importa es el equipo detrás de ellas y su capacidad de aprendizaje y colaboración.
+
+- **Ignorar las Críticas Sin Fundamento:** No siempre debemos prestar atención a las críticas infundadas. Durante el proceso de reclutamiento para Fuddy, me enfrenté a opiniones sin conocimiento de causa.
+
+- **Descubriendo el Talento:** Encontré abundancia de talento, ¡pero la presentación importa! Además de habilidades, es crucial tener claridad sobre tus metas antes de unirte a un proyecto.
