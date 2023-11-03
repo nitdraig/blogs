@@ -6,10 +6,17 @@ export default function Posts() {
 
   return (
     <section className="mt-6 mx-auto max-w-2xl h-screen">
-      <h2 className="text-4xl font-bold text-black">Mis Blogs</h2>
       <ul className="w-full">
-        {posts.map((post) => (
-          <ListItem key={post.id} post={post} />
+        {posts.map((post, index) => (
+          <li
+            key={post.id}
+            style={{
+              borderBottom: "1px solid #0065B3",
+              paddingBottom: "1.5em",
+            }}
+          >
+            <ListItem post={post} />
+          </li>
         ))}
       </ul>
     </section>

@@ -84,7 +84,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
           <div className="max-w-screen-md mx-auto mt-10 mb-10">
             <Link href="/blog">
               <button className="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">
-                <div className="absolute inset-0 w-3 bg-[#0065B3 ] transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+                <div className="absolute inset-0 w-3 bg-[#0065B3] transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                 <span className="relative text-black group-hover:text-white">
                   Volver a Blog
                 </span>

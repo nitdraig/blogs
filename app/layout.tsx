@@ -1,11 +1,10 @@
 import "./globals.css";
 import { Footer } from "./components/Footer";
 import Navbar from "./components/Navbar";
-import MyProfilePic from "./components/MyProfilePic";
 
 export const metadata = {
-  title: "D' Blog",
-  description: "For people who wants know too much",
+  title: "Agustín' Perceptions",
+  description: "Un blog simple, corto y debatible sobre todo el mundo IT",
 };
 
 export default function RootLayout({

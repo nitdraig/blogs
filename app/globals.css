@@ -6,4 +6,26 @@
 
 * {
   font-family: "Raleway", sans-serif;
+  padding: 0;
+  margin: 0;
+
+  transition: all 0.2s ease;
+}
+html {
+  overflow-x: hidden !important;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  scrollbar-color: white;
+}
+::-webkit-scrollbar-thumb {
+  background: #0c5083;
+  border-radius: 10px;
+}
+
+::selection {
+  color: white;
+  background: #000;
 }
