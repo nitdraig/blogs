@@ -3,6 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
+import { useTranslation } from "next-i18next"; // Importa useTranslation para traducción
 
 const postsDirectory = path.join(process.cwd(), "blogposts");
 
@@ -41,12 +42,18 @@ export async function getPostData(id: string) {
 
   const contentHtml = processedContent.toString();
 
+  // Utiliza useTranslation para obtener la función de traducción t
+  const { t } = useTranslation("common"); // 'common' es el nombre del archivo de traducción
+
+  // Supongamos que tienes un archivo de traducción "content" para tus publicaciones
+  const translatedContent = t(`content.${id}`); // 'content.id' corresponde a la traducción de la publicación
+
   const blogPostWithHTML: BlogPost & { contentHtml: string } = {
     id,
     title: matterResult.data.title,
     date: matterResult.data.date,
     image: matterResult.data.image,
-    contentHtml,
+    contentHtml: translatedContent, // Utiliza la versión traducida en lugar del contenido HTML original
   };
 
   return blogPostWithHTML;
