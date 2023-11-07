@@ -1,7 +1,11 @@
 "use client";
 import React, { useState } from "react";
-import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
-import Link from "next/link";
+import {
+  FaTwitter,
+  FaGithub,
+  FaLinkedin,
+  RiEnglishInput,
+} from "react-icons/fa";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,7 +18,7 @@ export default function Navbar() {
     <nav className="bg-[#212529] text-white w-screen">
       <div className="flex justify-between items-center h-20 px-5 xl:px-12 w-full">
         {" "}
-        <div className="  flex items-center space-x-8">
+        <div className="flex items-center lg:space-x-8 space-x-4">
           <a
             className="text-3xl font-bold font-heading hover:scale-110"
             href="/"
@@ -36,7 +40,13 @@ export default function Navbar() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Mi portfolio
+            Portfolio
+          </a>
+          <a
+            className=" hover:underline hover:scale-110"
+            href="https://en.blog.agustin.top"
+          >
+            <span className="text-[#0065B3]">ES</span>/EN
           </a>
         </div>
         <div className="lg:hidden flex space-x-5 items-center">
