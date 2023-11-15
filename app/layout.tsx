@@ -3,7 +3,7 @@ import { Footer } from "./components/Footer";
 import Navbar from "./components/Navbar";
 
 export const metadata = {
-  title: "Agustín' Perceptions",
+  title: "Agustín's Perceptions",
   description: "Un blog simple, corto y debatible sobre todo el mundo IT",
 };
 
