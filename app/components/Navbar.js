@@ -25,7 +25,7 @@ export default function Navbar() {
           >
             <img
               className="w-28 h-20 invert"
-              src="https://res.cloudinary.com/dcu06etml/image/upload/v1699045270/portolio-personal/jlcdcijnaqntxa7t4jns.png"
+              src="https://res.cloudinary.com/draig/image/upload/v1699045270/portolio-personal/jlcdcijnaqntxa7t4jns.png"
               alt="logo"
             />
           </a>

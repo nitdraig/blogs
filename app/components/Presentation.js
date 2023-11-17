@@ -9,7 +9,7 @@ export const Presentation = () => {
       <div className="mx-auto flex flex-col items-center space-y-8">
         <img
           className="w-28"
-          src="https://res.cloudinary.com/dcu06etml/image/upload/v1688835318/profile-pic_2_pxpzfg.png"
+          src="https://res.cloudinary.com/draig/image/upload/v1688835318/profile-pic_2_pxpzfg.png"
         />
       </div>
       <div className="flex flex-col space-y-4 text-center">
