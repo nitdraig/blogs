@@ -63,7 +63,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
               </h2>
               <div className="flex mt-3">
                 <img
-                  src="https://res.cloudinary.com/dcu06etml/image/upload/v1688838012/portolio-personal/cdyhbynxunvqlfa181ip.png"
+                  src="https://res.cloudinary.com/draig/image/upload/v1688837501/portolio-personal/axdmv6onpysqg8djney0.png"
                   className="h-10 w-10 rounded-full mr-2 object-cover"
                 />
                 <div>
