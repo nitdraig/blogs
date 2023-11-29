@@ -17,7 +17,7 @@ En el segundo mes de desarrollo de Fuddy, enfrentamos dos desafíos cruciales: c
 
 ## *Reafirmando Canales de Comunicación:* ##
 
-Utilizando el marco de gestión de equipos CASFF, diseñado para maximizar la agilidad y prevenir posibles contratiempos comunicativos (puedes obtener más detalles en la publicación dedicada a este marco en este blog, *[aquí](https://es.blog.agustin.top/posts/framework_managment)*), logramos establecer tres canales esenciales: Trello, Whatsapp y Meet. Estos canales se convirtieron en nuestras principales vías para compartir información sobre el progreso de tareas y abordar cualquier problema relacionado con plazos o tareas establecidas.
+Utilizando el marco de gestión de equipos CASFF, diseñado para maximizar la agilidad y prevenir posibles contratiempos comunicativos (puedes obtener más detalles en la publicación dedicada a este marco en este blog, *[aquí](https://es.blog.agustin.top/posts/004_framework_managment)*), logramos establecer tres canales esenciales: Trello, Whatsapp y Meet. Estos canales se convirtieron en nuestras principales vías para compartir información sobre el progreso de tareas y abordar cualquier problema relacionado con plazos o tareas establecidas.
 
 La solución, aunque simple, no fue fácil de implementar. En este proyecto, la participación del equipo era extralaboral, por lo que fue crucial establecer un horario y día fijo para reuniones grupales. La flexibilidad también desempeñó un papel clave: utilizamos Whatsapp como medio "informal" para una comunicación constante, en cualquier momento, abordando así diversas problemáticas relacionadas con Fuddy. Trello, por otro lado, se convirtió en un registro fundamental para tareas, avances y flujos de trabajo en cada hito del proyecto.
 
