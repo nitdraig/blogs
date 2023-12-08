@@ -5,7 +5,7 @@ export default function Posts() {
   const posts = getSortedPostsData();
 
   return (
-    <section className="mt-6 mx-auto max-w-2xl h-screen">
+    <section className="mt-6 mx-auto max-w-2xl h-full">
       <ul className="w-full">
         {posts.map((post, index) => (
           <li
