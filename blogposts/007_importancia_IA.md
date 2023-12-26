@@ -3,8 +3,6 @@ title: 'La Revolución de la Inteligencia Artificial - Un Aliado Indispensable e
 date: '2023-12-06'
 author: "Agustín"
 image: "https://res.cloudinary.com/draig/image/upload/v1701897179/portolio-personal/blog/eqr5b2wdrl46utnmvh51.jpg"
-
-
 ---
 
 ## **Mi experiencia con la IA**
