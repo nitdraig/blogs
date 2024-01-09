@@ -1,10 +1,10 @@
 ---
 title: 'La importacia de la documentación en el proceso de desarrollo'
-date: '2023-11-09'
+date: '2024-01-09'
 author: "Agustín"
 image: "https://res.cloudinary.com/draig/image/upload/v1704764911/portolio-personal/blog/w9c5eavdy1ykzripl7a8.jpg"
 ---
-#La importacia de la documentación en el proceso de desarrollo
+# La importacia de la documentación en el proceso de desarrollo
 Imaginamos una nueva clase de martillo, este trae botones, palancas, y casi es independiente de ti.
 Ese CASI es la diferencia entre lo convencional y lo innovador ¿No?
 Ahora te llega a tu casa, en un hermoso paquete, lo abres y decides que para tu hermano es más útil que para ti, se lo regalas. Vas a su casa y olvidaste el paquete que le contenia, sin embargo el martilloGPT le encanta. Se lo entregas hablas un rato y te retiras.
