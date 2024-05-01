@@ -16,7 +16,7 @@ export const Footer = () => {
               target="blank"
             >
               Make with <span className="text-red-800 text-lg">♥</span> for
-              Avellaneda Agustín. &copy; 2023
+              Avellaneda Agustín. &copy; 2024
             </a>
           </div>
         </div>
