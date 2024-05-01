@@ -50,7 +50,7 @@ Teniendo en mente las limitaciones, los inconvenientes, la comunicación y la pr
 ----------------------------
 ---------------------------
 ----------------------------
-**Conclusion:**
+**Conclusión:**
 En resumen, mi experiencia en la simulación laboral de No-Country fue desafiante y gratificante a la vez. Aunque no obtuve el rol que inicialmente busqué, la oportunidad de colaborar como Front-End Dev me permitió crecer profesionalmente y establecer conexiones valiosas. 
 
 Estoy ansioso por participar en futuras ediciones y continuar aprendiendo y creciendo en el campo de la tecnología. 
