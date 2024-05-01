@@ -23,13 +23,13 @@ Teniendo en mente las limitaciones, los inconvenientes, la comunicación y la pr
 ---------------------------
 ----------------------------
 ### *Puntos fuertes:*
-- Motiva a los no-experimentados a formar parte de un grupo de desarrollo sin ejercer la presión de un ambiente de trabajo con limites y obligaciones.
-- Crea la posibilidad de conocer personas de igual y/o mayor experiencia, creando lazos de amistad que pueden trascender a la simulación.
-- Abre la puerta a no limitarse ante ideas y genera un ambiente de colaboración obligada.
-- Permite explorar las propias limitaciones y entender el valor de la colaboración con otros roles.
-- Si bien no son proyectos para "clientes" como tal, son proyectos que pueden ir al portfolio de cada participante ya que es una experiencia enriquecedora.
-- Flexibilidad de horarios y tareas, clave para gente que no tiene un trabajo en IT y tampoco puede abandonar su trabajo no IT para una simulación.
-- El "Demo Day" fue una experiencia magnifica, permite mostrar tu trabajo, y contar la experiencia del equipo en el desarrollo del mismo. La participación del Fundador genera una cercanía con No-Country, que me resulta increíble.
+*Motiva a los no-experimentados a formar parte de un grupo de desarrollo sin ejercer la presión de un ambiente de trabajo con limites y obligaciones.
+*Crea la posibilidad de conocer personas de igual y/o mayor experiencia, creando lazos de amistad que pueden trascender a la simulación.
+*Abre la puerta a no limitarse ante ideas y genera un ambiente de colaboración obligada.
+*Permite explorar las propias limitaciones y entender el valor de la colaboración con otros roles.
+*Si bien no son proyectos para "clientes" como tal, son proyectos que pueden ir al portfolio de cada participante ya que es una experiencia enriquecedora.
+*Flexibilidad de horarios y tareas, clave para gente que no tiene un trabajo en IT y tampoco puede abandonar su trabajo no IT para una simulación.
+*El "Demo Day" fue una experiencia magnifica, permite mostrar tu trabajo, y contar la experiencia del equipo en el desarrollo del mismo. La participación del Fundador genera una cercanía con No-Country, que me resulta increíble.
 
 ---------------------------
 ----------------------------
@@ -41,9 +41,9 @@ Teniendo en mente las limitaciones, los inconvenientes, la comunicación y la pr
 ---------------------------
 ----------------------------
 ### *Puntos débiles:*
-- La falta de una estructura de nivelación para generar el ambiente de comunicación efectiva.
-- Considero que debería entregarse en cada rol herramientas que permitan tener una estructura de trabajo para generar una idea más cercana a la realidad sobre como se podría desempeñar en un trabajo verdadero.
-- La cantidad de disertantes es un problema, en nuestro caso fueron bastantes, no lo suficiente como para abandonar el proyecto pero si para afectar el desempeño y los tiempos.
+*La falta de una estructura de nivelación para generar el ambiente de comunicación efectiva.
+*Considero que debería entregarse en cada rol herramientas que permitan tener una estructura de trabajo para generar una idea más cercana a la realidad sobre como se podría desempeñar en un trabajo verdadero.
+*La cantidad de disertantes es un problema, en nuestro caso fueron bastantes, no lo suficiente como para abandonar el proyecto pero si para afectar el desempeño y los tiempos.
 ----------------------------
 ---------------------------
 ----------------------------
@@ -55,7 +55,7 @@ En resumen, mi experiencia en la simulación laboral de No-Country fue desafiant
 
 Estoy ansioso por participar en futuras ediciones y continuar aprendiendo y creciendo en el campo de la tecnología. 
 
-Le agradezco a mi equipo C-17-11-t, por su apoyo, no bajar las manos y crear este pequeño pero éxitoso producto final.
+*Le agradezco a mi equipo C-17-11-t, por su apoyo, no bajar las manos y crear este pequeño pero éxitoso producto final.*
 
 
 **[Proyecto Final](https://mascocuidado.netlify.app/ "Proyecto Final")**
