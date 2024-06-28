@@ -1,6 +1,6 @@
 ---
 title: 'El Ciclo de Vida de un Proyecto | FGPG Módulo 1, SubMódulo 1 '
-date: '2024-06-24'
+date: '2024-06-28'
 author: "Agustín"
 image: "https://res.cloudinary.com/draig/image/upload/v1719294779/portolio-personal/blog/zwocgc3wmra9ukb4cnag.webp"
 ---
