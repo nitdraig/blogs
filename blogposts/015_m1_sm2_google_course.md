@@ -1,5 +1,5 @@
 ---
-title: 'Destrezas Básicas para un Project Manager Exitoso | FGPG Módulo 1, SubMódulo 1 '
+title: 'Destrezas Básicas para un Project Manager Exitoso | FGPG Módulo 1, SubMódulo 2 '
 date: '2024-07-05'
 author: "Agustín"
 image: "https://res.cloudinary.com/draig/image/upload/v1720122427/portolio-personal/blog/htxiskelp7kcea0vlduy.webp"
