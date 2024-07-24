@@ -2,6 +2,7 @@
 title: 'Estructurar una idea - Nacimiento de Fuddy'
 date: '2023-08-31'
 author: "Agustín"
+category: "Reflexiones"
 image: "https://res.cloudinary.com/draig/image/upload/v1699050254/portolio-personal/blog/fp9qjrfggevykki4g6q8.jpg"
 ---
 **¿Cómo nace una idea?**

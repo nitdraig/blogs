@@ -1,12 +1,9 @@
 import React from "react";
-
 import { getSortedPostsData } from "@/lib/posts";
-import CardLastPosts from "@/app/components/lastItems/CardLastPosts";
+import PostsFilter from "./components/PostsFilter";
 
 const IndexView = () => {
   const posts = getSortedPostsData();
-  const lastFourPosts = posts.slice(0, 6);
-
   return (
     <section className="lg:px-10 px-2 pt-4 pb-8">
       <div className="mx-auto flex flex-col items-center space-y-8">
@@ -37,13 +34,9 @@ const IndexView = () => {
           </a>
         </div>
         <h3 className="text-[#212529] mx-auto text-md font-bold tracking-tight lg:text-lg">
-          Mis últimos posts:
+          Mis posts:
         </h3>
-        <div className="flex flex-row flex-wrap justify-center space-x-4">
-          {lastFourPosts.map((post, index) => (
-            <CardLastPosts key={index} post={post} />
-          ))}
-        </div>
+        <PostsFilter posts={posts} />
         <div className="max-w-screen-md mx-auto mt-10 mb-10">
           <a href="/blog">
             <button className="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">

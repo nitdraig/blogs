@@ -2,6 +2,7 @@
 title: 'Reflexiones tras mis Primeras Pruebas Técnicas para Puestos de Fullstack'
 date: '2024-02-13'
 author: "Agustín"
+category: "Reflexiones"
 image: "https://res.cloudinary.com/draig/image/upload/v1707840918/portolio-personal/blog/fj5lgzgto03l0tplcfya.jpg"
 ---
 

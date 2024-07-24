@@ -2,6 +2,7 @@
 title: 'La Revolución de la Inteligencia Artificial - Un Aliado Indispensable en mi Trabajo Diario'
 date: '2023-12-06'
 author: "Agustín"
+category: "Reflexiones"
 image: "https://res.cloudinary.com/draig/image/upload/v1701897179/portolio-personal/blog/eqr5b2wdrl46utnmvh51.jpg"
 ---
 

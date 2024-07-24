@@ -2,6 +2,7 @@
 title: 'Experiencia en la Simulación Laboral Tech de No-Country'
 date: '2024-05-01'
 author: "Agustín"
+category: "Experiencias"
 image: "https://res.cloudinary.com/draig/image/upload/v1714590788/portolio-personal/blog/hcqrxgytsu6u0hosjxok.webp"
 ---
 # **Reflexiones sobre mi Experiencia en la Simulación Laboral Tech de No-Country**

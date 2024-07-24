@@ -2,7 +2,7 @@
 title: 'Metodologías de Gestión de Proyectos | FGPG Módulo 1, SubMódulo 3 '
 date: '2024-07-12'
 author: "Agustín"
-category: "Managment"
+category: "Management"
 image: "https://res.cloudinary.com/draig/image/upload/v1720567160/portolio-personal/blog/j013vwtjnd4bgalgehlo.webp"
 ---
 

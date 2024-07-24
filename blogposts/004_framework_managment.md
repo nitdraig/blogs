@@ -2,6 +2,7 @@
 title: 'Framework de gestión de equipos - CASFF'
 date: '2023-10-31'
 author: "Agustín"
+category: "Management"
 image: "https://res.cloudinary.com/draig/image/upload/v1699050419/portolio-personal/blog/yje8y8dafgw7akwsywod.jpg"
 ---
 ***CASFF - Clear, agile, simple, fast, and flexible***

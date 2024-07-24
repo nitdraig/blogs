@@ -2,6 +2,7 @@
 title: 'La importancia de ser Autodidacta'
 date: '2023-11-15'
 author: "Agustín"
+category: "Reflexiones"
 image: "https://res.cloudinary.com/draig/image/upload/v1700008256/portolio-personal/blog/djtn3aiy6ak4iuqbzykt.jpg"
 ---
 

@@ -2,6 +2,7 @@
 title: 'Proceso de desarrollo Fuddy - Tercer Mes'
 date: '2023-12-26'
 author: "Agustín"
+category: "Experiencias"
 image: "https://res.cloudinary.com/draig/image/upload/v1703610570/portolio-personal/blog/pnsou6iallkximqxja0a.jpg"
 ---
 

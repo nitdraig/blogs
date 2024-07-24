@@ -2,6 +2,7 @@
 title: 'Proceso de desarrollo Fuddy - Primer Mes'
 date: '2023-10-20'
 author: "Agustín"
+category: "Experiencias"
 image: "https://res.cloudinary.com/draig/image/upload/v1699050151/portolio-personal/blog/c3k87icgvaukm58pytsl.jpg"
 ---
 

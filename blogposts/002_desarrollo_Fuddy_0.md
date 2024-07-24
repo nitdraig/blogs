@@ -2,6 +2,7 @@
 title: 'Proceso de Reclutamiento Fuddy - Armado de equipo'
 date: '2023-09-29'
 author: "Agustín"
+category: "Experiencias"
 image: "https://res.cloudinary.com/draig/image/upload/v1699050256/portolio-personal/blog/lufg3s5iozzaaxicp8fk.jpg"
 ---
 

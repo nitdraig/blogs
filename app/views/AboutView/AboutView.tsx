@@ -1,26 +1,34 @@
 import { projects } from "@/lib/projects";
 import React from "react";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTelegram, FaTwitter } from "react-icons/fa";
+import { MdAlternateEmail, MdOutgoingMail } from "react-icons/md";
 
 const AboutView = () => {
   return (
     <section className="lg:px-10 px-2 pt-4 pb-8">
       <div className="mx-auto flex flex-col items-center space-y-8">
         <img
-          className="w-28"
+          className="w-28 -mb-6"
           src="https://res.cloudinary.com/draig/image/upload/v1688835318/profile-pic_2_pxpzfg.png"
-          alt="Profile"
+          alt="Agustin Profile"
         />
+        <div className="flex lg:mt-1  ">
+          <p className="text-2xl text-bold ">Agustín Avellaneda</p>
+          <img src="./verified.png" className="w-6 h-6 mt-[0.14rem] ml-1 " />
+        </div>
       </div>
       <div className="flex h-full mx-auto flex-col space-y-4 text-center">
-        <div className="lg:mx-auto mx-4  lg:my-0 mt-4 text-gray-900 lg:text-lg text-md">
+        <div className="lg:mx-auto mx-4 lg:my-0 lg:mt-4 mt-2 text-gray-900 lg:text-lg text-md">
           <p>
-            Soy Agustín, Project Manager & Fullstack Web Developer 🌐 y mi foco
-            es crear productos estrellas.
+            <span className="font-semibold text-sm ">
+              Project Manager & Fullstack Web Developer 🌐
+            </span>
             <br />
-            Lidero equipos de alto rendimiento y enfocados en agile.
+            Mi foco es crear productos estrellas. <br /> Lidero equipos de alto
+            rendimiento y enfocados en agile.
             <br />
-            Gamer ocasional, productor musical, y amante del mundo audiovisual.
+            Gamer ocasional, productor musical, calistenico amateur y amante del
+            mundo audiovisual.
           </p>
         </div>
         <span className="font-bold">Algunos de mis proyectos:⭐</span>
@@ -52,21 +60,50 @@ const AboutView = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaGithub className="hover:scale-125" size={30} />
+              <FaGithub
+                className="hover:scale-125 hover:text-[#0C5083]"
+                size={30}
+              />
             </a>
             <a
               href="https://twitter.com/nitdraig"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaTwitter className="hover:scale-125" size={30} />
+              <FaTwitter
+                className="hover:scale-125 hover:text-[#0C5083]"
+                size={30}
+              />
             </a>
             <a
               href="https://www.linkedin.com/in/avellaneda-agust%C3%ADn-tns"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin className="hover:scale-125" size={30} />
+              <FaLinkedin
+                className="hover:scale-125 hover:text-[#0C5083]"
+                size={30}
+              />
+            </a>
+            <a
+              href="https://agustin.top/#contact"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <MdOutgoingMail
+                size={30}
+                className="hover:scale-125 hover:text-[#0C5083]"
+              />
+            </a>
+            <a
+              href="https://t.me/nitdraig"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaTelegram
+                size={30}
+                className="hover:scale-125 hover:text-[#0C5083]"
+              />
             </a>
           </div>
           <div className="mt-4 flex justify-center">

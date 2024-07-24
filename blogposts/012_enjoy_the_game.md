@@ -2,6 +2,7 @@
 title: 'Disfrutar el Juego: Reflexiones sobre un Logro Competitivo'
 date: '2024-05-22'
 author: "Agustín"
+category: "Reflexiones"
 image: "https://res.cloudinary.com/draig/image/upload/v1716422785/portolio-personal/blog/qkpoou8imexqfckdcwks.webp"
 ---
 # **Disfrutar el Juego: Reflexiones sobre un Logro Competitivo**

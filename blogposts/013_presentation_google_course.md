@@ -2,6 +2,7 @@
 title: 'Mi Viaje en los Fundamentos de la Gestión de Proyectos de Google'
 date: '2024-06-24'
 author: "Agustín"
+category: "Management"
 image: "https://res.cloudinary.com/draig/image/upload/v1719079330/portolio-personal/blog/rwp61o5qbbbmpsi4p1ht.webp"
 ---
 
