@@ -14,11 +14,11 @@ const AboutView = () => {
         />
         <div className="flex lg:mt-1  ">
           <p className="text-2xl text-bold ">Agustín Avellaneda</p>
-          <img src="./verified.png" className="w-6 h-6 mt-[0.14rem] ml-1 " />
+          <img src="./verified.png" className="w-6 h-6 mt-[0.23rem] ml-1 " />
         </div>
       </div>
       <div className="flex h-full mx-auto flex-col space-y-4 text-center">
-        <div className="lg:mx-auto mx-4 lg:my-0 lg:mt-4 mt-2 text-gray-900 lg:text-lg text-md">
+        <div className="lg:mx-auto mx-4 lg:my-0 lg:mt-0 mt-2 text-gray-900 lg:text-lg text-md">
           <p>
             <span className="font-semibold text-sm ">
               Project Manager & Fullstack Web Developer 🌐
