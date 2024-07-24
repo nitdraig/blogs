@@ -21,6 +21,7 @@ export function getSortedPostsData() {
       title: matterResult.data.title,
       date: matterResult.data.date,
       image: matterResult.data.image,
+      category: matterResult.data.category,
     };
 
     return blogPost;
@@ -46,6 +47,7 @@ export async function getPostData(id: string) {
     title: matterResult.data.title,
     date: matterResult.data.date,
     image: matterResult.data.image,
+    category: matterResult.data.category,
     contentHtml,
   };
 

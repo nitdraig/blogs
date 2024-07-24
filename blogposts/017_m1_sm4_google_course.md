@@ -2,6 +2,7 @@
 title: 'La Importancia de la Cultura Organizacional | FGPG Módulo 1, SubMódulo 4 '
 date: '2024-07-18'
 author: "Agustín"
+category: "Managment"
 image: "https://res.cloudinary.com/draig/image/upload/v1721353611/portolio-personal/blog/n885obzodi4ujeo8khm3.webp"
 ---
 

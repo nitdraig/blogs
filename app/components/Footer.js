@@ -5,9 +5,9 @@ export const Footer = () => {
     <footer className="bg-[#212529] w-screen">
       <div className=" text-white pt-8">
         <div className="text-center">
-          <p className="italic">
-            Looking for the good in our fellow men will help us find the good in
-            ourselves - Plato
+          <p className="italic mx-4">
+            Buscar lo bueno en nuestros semejantes nos ayudará a encontrar lo
+            bueno en nosotros mismos - Platón
           </p>
           <div className="pt-3 pb-3 items-center text-sm  hover:scale-110 text-gray-400 ">
             <a
@@ -15,7 +15,7 @@ export const Footer = () => {
               href="https://www.linkedin.com/in/avellaneda-agust%C3%ADn-tns"
               target="blank"
             >
-              Make with <span className="text-red-800 text-lg">♥</span> for
+              Develop with <span className="text-red-800 text-lg">♥</span> by
               Avellaneda Agustín. &copy; 2024
             </a>
           </div>

@@ -3,4 +3,5 @@ type BlogPost = {
   title: string;
   date: string;
   image: string;
+  category: string;
 };

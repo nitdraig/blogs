@@ -1,4 +1,3 @@
-import Link from "next/link";
 import getFormattedDate from "@/lib/getFormattedDate";
 
 type Props = {
@@ -11,9 +10,9 @@ export default function ListItem({ post }: Props) {
 
   return (
     <div className="mt-4 text-2xl text-black  ">
-      <Link className=" hover:underline " href={`/posts/${id}`}>
+      <a className=" hover:underline " href={`/posts/${id}`}>
         {title}
-      </Link>
+      </a>
       <br />
       <p className="text-sm text-gray-700 ">{formattedDate}</p>
     </div>

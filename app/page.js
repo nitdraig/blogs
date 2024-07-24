@@ -1,5 +1,5 @@
 import Script from "next/script";
-import { Presentation } from "./components/Presentation";
+import IndexView from "./views/IndexView/IndexView";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
           gtag('config', 'G-RR6M6KD3ZP');
                   `}
       </Script>
-      <Presentation />
+      <IndexView />
     </main>
   );
 }

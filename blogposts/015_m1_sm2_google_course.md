@@ -2,6 +2,7 @@
 title: 'Destrezas Básicas para un Project Manager Exitoso | FGPG Módulo 1, SubMódulo 2 '
 date: '2024-07-05'
 author: "Agustín"
+category: "Managment"
 image: "https://res.cloudinary.com/draig/image/upload/v1720122427/portolio-personal/blog/htxiskelp7kcea0vlduy.webp"
 ---
 ## En la gestión de proyectos, el rol del Project Manager (PM) es crucial. Este módulo destaca las habilidades fundamentales que un PM debe poseer para asegurar el éxito del proyecto:

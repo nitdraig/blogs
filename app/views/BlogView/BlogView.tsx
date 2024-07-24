@@ -1,7 +1,7 @@
+import Posts from "@/app/components/Posts";
 import React from "react";
-import Posts from "./../components/Posts";
 
-const page = () => {
+const BlogView = () => {
   return (
     <section className="mx-auto flex max-w-2xl flex-col px-6 py-10 md:px-0 lg:px-8">
       <h2 className="text-4xl font-bold text-black">Mis Blogs</h2>
@@ -10,4 +10,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default BlogView;

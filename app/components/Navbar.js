@@ -1,11 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import {
-  FaTwitter,
-  FaGithub,
-  FaLinkedin,
-  RiEnglishInput,
-} from "react-icons/fa";
+import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,7 +12,6 @@ export default function Navbar() {
   return (
     <nav className="bg-[#212529] text-white w-screen">
       <div className="flex justify-between items-center h-20 px-5 xl:px-12 w-full">
-        {" "}
         <div className="flex items-center lg:space-x-8 space-x-4">
           <a
             className="text-3xl font-bold font-heading hover:scale-110"
@@ -30,8 +24,8 @@ export default function Navbar() {
             />
           </a>
 
-          <a href="/blog" className=" hover:underline   hover:scale-110">
-            Blog
+          <a href="/about" className=" hover:underline   hover:scale-110">
+            Sobre mí
           </a>
 
           <a
