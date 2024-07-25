@@ -17,7 +17,7 @@ const CardLastPosts = ({ post }: any) => {
           <h3 className="text-gray-900 font-bold text-lg mt-1 hover:underline">
             {title}
           </h3>
-          <span className="text-gray-800 text-sm">Posteado el: {date}</span>
+          <span className="text-gray-800 text-sm">Posted on: {date}</span>
         </div>
       </a>
     </div>

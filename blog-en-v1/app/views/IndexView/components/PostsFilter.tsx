@@ -17,13 +17,13 @@ type PostsFilterProps = {
 
 const PostsFilter: React.FC<PostsFilterProps> = ({ posts = [] }) => {
   const categories = [
-    "Recientes",
+    "Recent",
     ...Array.from(new Set(posts.map((post) => post.category))),
   ];
-  const [selectedCategory, setSelectedCategory] = useState("Recientes");
+  const [selectedCategory, setSelectedCategory] = useState("Recent");
 
   const filteredPosts =
-    selectedCategory === "Recientes"
+    selectedCategory === "Recent"
       ? posts
       : posts.filter((post) => post.category === selectedCategory);
 
