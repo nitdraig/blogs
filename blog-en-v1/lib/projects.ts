@@ -28,10 +28,10 @@ export const projects = [
     image: "https://c-ui.agustin.top/logo.png",
   },
   {
-    name: "Ver más",
+    name: "See more",
     description: "My portfolio",
     link: "https://agustin.top",
     image:
-      "https://res.cloudinary.com/draig/image/upload/v1709756634/portolio-personal/arvueir4os53p12ufawc.ico",
+      "https://res.cloudinary.com/draig/image/upload/v1721879796/portolio-personal/icqgvg2j7br8opbasotz.png",
   },
 ];
