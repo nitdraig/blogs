@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://c-ui.agustin.top/">
-    <img src="https://res.cloudinary.com/draig/image/upload/v1720318582/cui/qri5p1r8fwfp8wvfc6l0.png" alt="CUI Logo" width="200" height="200">
+    <img src="https://res.cloudinary.com/draig/image/upload/v1709756634/portolio-personal/arvueir4os53p12ufawc.ico" alt="CUI Logo" width="200" height="200">
   </a>
 </p>
 <h3 align="center">Agustin's Perceptions | Blogs </h3>

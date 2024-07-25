@@ -6,8 +6,8 @@ export const Footer = () => {
       <div className=" text-white pt-8">
         <div className="text-center">
           <p className="italic mx-4">
-            Buscar lo bueno en nuestros semejantes nos ayudará a encontrar lo
-            bueno en nosotros mismos - Platón
+            Looking for the good in our fellow men will help us find the good in
+            ourselves - Plato
           </p>
           <div className="pt-3 pb-3 items-center text-sm  hover:scale-110 text-gray-400 ">
             <a

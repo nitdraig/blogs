@@ -6,7 +6,8 @@ const image =
   "https://res.cloudinary.com/draig/image/upload/v1701373459/portolio-personal/blog/images-open-graph/guldwxsz26pip5molour.png";
 export const metadata = {
   title: "Agustín's Perceptions",
-  description: "Un blog simple, corto y debatible sobre todo en el mundo IT",
+  description:
+    "A simple, short and debatable blog about everything in the IT world",
   keywords: [
     "Agustín Avellaneda",
     "Desarrollador freelance",
@@ -71,9 +72,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Avellaneda Agustín | Desarrollador web Fullstack | Un blog simple, corto y debatible sobre todo en el mundo IT",
+      "Avellaneda Agustín | Desarrollador web Fullstack | A simple, short and debatable blog about everything in the IT world",
     description:
-      "Avellaneda Agustín, Desarrollador web Fullstack | Un blog simple, corto y debatible sobre todo en el mundo IT",
+      "Avellaneda Agustín, Desarrollador web Fullstack | A simple, short and debatable blog about everything in the IT world",
     creator: "Avellaneda Agustín",
     images: [image],
   },

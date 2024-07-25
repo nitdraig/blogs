@@ -98,7 +98,7 @@ export default function NotFound() {
             <span>4 0 4</span>
           </span>
           <span className="text-gray-500 text-xl">
-            La página que estas buscando no existe...(aún)
+            The page you are looking for does not exist...(yet)
           </span>
         </div>
       </center>
@@ -107,7 +107,7 @@ export default function NotFound() {
           href="/"
           className="text-gray-500 font-mono text-xl bg-gray-200 p-3 rounded-md hover:shadow-md"
         >
-          Volver
+          Back
         </Link>
       </center>
     </div>

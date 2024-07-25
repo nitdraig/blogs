@@ -1,7 +1,7 @@
 import { projects } from "@/lib/projects";
 import React from "react";
 import { FaGithub, FaLinkedin, FaTelegram, FaTwitter } from "react-icons/fa";
-import { MdAlternateEmail, MdOutgoingMail } from "react-icons/md";
+import { MdOutgoingMail } from "react-icons/md";
 
 const AboutView = () => {
   return (
@@ -24,14 +24,14 @@ const AboutView = () => {
               Project Manager & Fullstack Web Developer 🌐
             </span>
             <br />
-            Mi foco es crear productos estrellas. <br /> Lidero equipos de alto
-            rendimiento y enfocados en agile.
+            My focus is to create star products. <br />I lead high-level teams
+            performance and focused on agile.
             <br />
-            Gamer ocasional, productor musical, calistenico amateur y amante del
-            mundo audiovisual.
+            Occasional gamer, music producer, amateur calisthenician and lover
+            of audiovisual world.
           </p>
         </div>
-        <span className="font-bold">Algunos de mis proyectos:⭐</span>
+        <span className="font-bold">Some of my projects:⭐</span>
         <div className="text-md ">
           <div className="grid  grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-2 mx-10">
             {projects.map((project, index) => (
@@ -53,7 +53,7 @@ const AboutView = () => {
           </div>
         </div>
         <div className="mt-4">
-          <p className="text-md">Puedes contactarme por mis redes. ;)</p>
+          <p className="text-md">You can contact me through my networks. ;)</p>
           <div className="flex justify-center mt-4 space-x-5">
             <a
               href="https://www.github.com/nitdraig"
@@ -111,7 +111,7 @@ const AboutView = () => {
               <button className="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">
                 <div className="absolute inset-0 w-3 bg-[#0065B3] transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                 <span className="relative text-black group-hover:text-white">
-                  Ver posts
+                  See posts
                 </span>
               </button>
             </a>
