@@ -2,7 +2,7 @@
 title: 'La importacia de la documentación en el proceso de desarrollo'
 date: '2024-01-09'
 author: "Agustín"
-category: "Management and Develop"
+category: "Management y Desarrollo"
 image: "https://res.cloudinary.com/draig/image/upload/v1704764911/portolio-personal/blog/w9c5eavdy1ykzripl7a8.jpg"
 ---
 # La importacia de la documentación en el proceso de desarrollo
