@@ -6,7 +6,7 @@
 <h3 align="center">Agustin's Perceptions | Blog </h3>
 
 <p align="center">
-  Build Beautiful Interfaces with Ease
+  A simple blog about my IT experience and career
   <br>
   <br>
   <a href="https://github.com/nitdraig/blogs/issues">Report bug</a>
