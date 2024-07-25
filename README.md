@@ -1,9 +1,9 @@
 <p align="center">
-  <a href="https://c-ui.agustin.top/">
-    <img src="https://res.cloudinary.com/draig/image/upload/v1709756634/portolio-personal/arvueir4os53p12ufawc.ico" alt="CUI Logo" width="200" height="200">
+  <a href="https://en.blog.agustin.top/">
+    <img src="https://res.cloudinary.com/draig/image/upload/v1721879796/portolio-personal/icqgvg2j7br8opbasotz.png" alt="Blog Logo" width="200" height="200">
   </a>
 </p>
-<h3 align="center">Agustin's Perceptions | Blogs </h3>
+<h3 align="center">Agustin's Perceptions | Blog </h3>
 
 <p align="center">
   Build Beautiful Interfaces with Ease

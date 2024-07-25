@@ -25,7 +25,7 @@ export default function Navbar() {
           </a>
 
           <a href="/about" className=" hover:underline   hover:scale-110">
-            Sobre mí
+            About Me
           </a>
 
           <a
@@ -38,9 +38,9 @@ export default function Navbar() {
           </a>
           <a
             className=" hover:underline hover:scale-110"
-            href="https://en.blog.agustin.top"
+            href="https://es.blog.agustin.top"
           >
-            <span className="text-[#0065B3]">ES</span>/EN
+            ES<span className="text-[#0065B3]">/EN</span>
           </a>
         </div>
         <div className="lg:hidden flex space-x-5 items-center">
