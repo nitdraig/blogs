@@ -1,8 +1,8 @@
 ---
-title: "Fighting the ego"
+title: "Combatiendo el ego"
 date: "2024-08-15"
 author: "Agustín"
-category: "Reflexion"
+category: "Reflexiones"
 image: "https://res.cloudinary.com/draig/image/upload/v1723764841/portolio-personal/blog/e1oaqkbign08pkseit5n.webp"
 ---
 
