@@ -95,7 +95,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <link rel="canonical" href="https://es.blog.agustin.top" />
       <body className="bg-[#E9E9E9]">
         <Navbar />
