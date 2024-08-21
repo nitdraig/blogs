@@ -3,52 +3,52 @@ import { Footer } from "./components/Footer";
 import Navbar from "./components/Navbar";
 
 const image =
-  "https://res.cloudinary.com/draig/image/upload/v1701373459/portolio-personal/blog/images-open-graph/guldwxsz26pip5molour.png";
+  "https://res.cloudinary.com/draig/image/upload/v1724254365/portolio-personal/blog/images-open-graph/rab00fyxg7jioeg2mvfe.png";
 export const metadata = {
   title: "Agustín's Perceptions",
   description:
     "A simple, short and debatable blog about everything in the IT world",
   keywords: [
     "Agustín Avellaneda",
-    "Desarrollador freelance",
+    "Freelance developer",
     "Fullstack developer",
-    "Desarrollo web",
-    "Diseño web",
+    "Web development",
+    "Web design",
     "HTML",
     "CSS",
     "JavaScript",
     "Python",
     "SQL",
     "NoSQL",
-    "Bases de datos",
-    "Gestión de bases de datos",
+    "Databases",
+    "Database management",
     "Startup",
-    "Emprendimiento",
-    "Negocios",
+    "Entrepreneurship",
+    "Business",
     "Marketing",
-    "Finanzas",
-    "Contabilidad",
+    "Finance",
+    "Accounting",
     "Legal",
-    "Inteligencia Artificial",
-    "Tecnologías emergentes",
-    "Desarrollo de software",
-    "Programación",
-    "Código abierto",
+    "Artificial intelligence",
+    "Emerging technologies",
+    "Software development",
+    "Programming",
+    "Open source",
     "Frameworks",
-    "Desarrollo ágil",
-    "Herramientas de desarrollo",
-    "Experiencia de usuario",
-    "Seguridad informática",
-    "Internet de las cosas",
+    "Agile development",
+    "Development tools",
+    "User experience",
+    "Computer security",
+    "Internet of things",
     "Cloud computing",
-    "Arquitectura de software",
-    "Desarrollo móvil",
-    "Aplicaciones móviles",
-    "Realidad aumentada",
-    "Realidad virtual",
-    "Ciberseguridad",
+    "Software architecture",
+    "Mobile development",
+    "Mobile applications",
+    "Augmented reality",
+    "Virtual reality",
+    "Cybersecurity",
     "Blockchain",
-    "Automatización",
+    "Automation",
     "Scrum",
     "Git",
   ],
@@ -72,9 +72,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Avellaneda Agustín | Desarrollador web Fullstack | A simple, short and debatable blog about everything in the IT world",
+      "Avellaneda Agustín | Fullstack Web Developer | A simple, short and debatable blog about everything in the IT world",
     description:
-      "Avellaneda Agustín, Desarrollador web Fullstack | A simple, short and debatable blog about everything in the IT world",
+      "Avellaneda Agustín, Fullstack Web Developer | A simple, short and debatable blog about everything in the IT world",
     creator: "Avellaneda Agustín",
     images: [image],
   },
@@ -97,7 +97,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <link rel="canonical" href="https://es.blog.agustin.top" />
+      <link rel="canonical" href="https://en.blog.agustin.top" />
       <body className="bg-[#E9E9E9]">
         <Navbar />
         {children}

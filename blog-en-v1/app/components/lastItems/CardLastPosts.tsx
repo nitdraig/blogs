@@ -7,6 +7,7 @@ const CardLastPosts = ({ post }: any) => {
       <a href={`/posts/${id}`} className="block max-w-xs  overflow-hidden">
         <div className="w-full bg-cover min-h-64">
           <img
+            src={image}
             className="w-96 h-36 text-center object-cover shadow-md scale-100 hover:scale-110 transition duration-[1.5s] rounded-md"
             alt={title}
             loading="lazy"

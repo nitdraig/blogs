@@ -3,7 +3,7 @@ import { Footer } from "./components/Footer";
 import Navbar from "./components/Navbar";
 
 const image =
-  "https://res.cloudinary.com/draig/image/upload/v1701373459/portolio-personal/blog/images-open-graph/guldwxsz26pip5molour.png";
+  "https://res.cloudinary.com/draig/image/upload/v1724254163/portolio-personal/blog/images-open-graph/oo4mordjezhyenk3qnrk.png";
 export const metadata = {
   title: "Agustín's Perceptions",
   description: "Un blog simple, corto y debatible sobre todo en el mundo IT",
