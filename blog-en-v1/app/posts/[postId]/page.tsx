@@ -2,6 +2,7 @@ import getFormattedDate from "@/lib/getFormattedDate";
 import { getSortedPostsData, getPostData } from "@/lib/posts";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import ShareButtonSection from "@/app/components/ShareButtonSection";
 
 export function generateStaticParams() {
   const posts = getSortedPostsData();
@@ -25,6 +26,21 @@ export function generateMetadata({ params }: { params: { postId: string } }) {
 
   return {
     title: post.title,
+    openGraph: {
+      title: post.title,
+      url: `https://es.blog.agustin.top/posts/${postId}`,
+      images: [
+        {
+          url: post.image,
+          alt: post.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      images: [post.image],
+    },
   };
 }
 
@@ -37,7 +53,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
   const { title, date, contentHtml, image } = await getPostData(postId);
 
   const pubDate = getFormattedDate(date);
-
+  const postUrl = `https://es.blog.agustin.top/posts/${postId}`;
   return (
     <section>
       <div className="max-w-screen-xl mx-auto">
@@ -78,7 +94,15 @@ export default async function Post({ params }: { params: { postId: string } }) {
 
           <div className="px-4 lg:px-0 mt-12 text-gray-700 max-w-screen-md mx-auto text-lg leading-relaxed">
             <article>
-              <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
+              <section
+                className="space-y-4"
+                dangerouslySetInnerHTML={{ __html: contentHtml }}
+              />
+              <p className="text-md font-bold mt-10 mb-6">
+                Dont forget to share it with whoever you think might be useful.
+                this information
+              </p>
+              <ShareButtonSection postUrl={postUrl} title={title} />
             </article>
           </div>
           <div className="max-w-screen-md mx-auto mt-10 mb-10">
@@ -86,7 +110,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
               <button className="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">
                 <div className="absolute inset-0 w-3 bg-[#0065B3] transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                 <span className="relative text-black group-hover:text-white">
-                  See All Posts
+                  All Posts
                 </span>
               </button>
             </Link>

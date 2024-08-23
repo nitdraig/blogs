@@ -43,11 +43,11 @@ export default function Navbar() {
             <span className="text-[#0065B3]">ES</span>/EN
           </a>
         </div>
-        <div className="lg:hidden flex space-x-5 items-center">
+        {/* <div className="lg:hidden flex space-x-5 items-center">
           <button onClick={toggleMenu} className="text-3xl focus:outline-none">
             ☰
           </button>
-        </div>
+        </div> */}
         {isMenuOpen && (
           <div className="lg:hidden absolute top-20 right-0 bg-[#212529]/60 p-20 w-48 py-2 space-y-2 text-center shadow">
             <a
