@@ -16,13 +16,14 @@
   <a href="https://agustin.top/">Creator Portfolio</a>
 </p>
 
-# Agustin's Perceptions
+# Agustin's Perceptionss
 
 ## Introduction
+
 This is a blog that seeks to centralize information, experiences, perceptions, reflections and personal thoughts in a professional way and focused on the IT world.
 
 ## Stack
+
 Next.js, Tailwind, Typescript, Javascript, and Markdown format to make the posts easy to load and read.
 
 Implementing a Category Filters. For time reasons have two deploys for Spanish and English.
-
