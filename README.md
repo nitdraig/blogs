@@ -16,7 +16,7 @@
   <a href="https://agustin.top/">Creator Portfolio</a>
 </p>
 
-# Agustin's Perceptionss
+# Agustin's Perceptions
 
 ## Introduction
 
