@@ -9,11 +9,11 @@ export default function IndexView({ locale }: { locale: Locale }) {
   const messages = getMessages(locale);
 
   return (
-    <section className="lg:px-10 px-2 pt-4 pb-8">
+    <section className="lg:px-10 px-2 pt-4 pb-8 min-h-screen">
       <div className="mx-auto flex flex-col items-center space-y-8">
         <img
           className="w-28 rounded-full"
-          src="./profile.webp"
+          src="/profile.webp"
           alt="Profile"
         />
       </div>

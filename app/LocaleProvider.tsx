@@ -1,7 +1,6 @@
 "use client";
 
 import React, { createContext, useContext, useCallback } from "react";
-import { useRouter } from "next/navigation";
 import type { Locale } from "@/lib/locale";
 import { getLocaleCookieName } from "@/lib/locale-config";
 
@@ -21,14 +20,12 @@ export function LocaleProvider({
   children: React.ReactNode;
   initialLocale: Locale;
 }) {
-  const router = useRouter();
-
   const setLocale = useCallback(
     (newLocale: Locale, pathname: string) => {
       document.cookie = `${getLocaleCookieName()}=${newLocale}; path=/; max-age=${COOKIE_MAX_AGE}; SameSite=Lax`;
-      router.push(pathname);
+      window.location.href = pathname || "/";
     },
-    [router]
+    []
   );
 
   return (

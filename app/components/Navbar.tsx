@@ -17,9 +17,9 @@ export default function Navbar({ messages }: { messages: Messages }) {
         <div className="flex items-center lg:space-x-8 space-x-4">
           <a className="text-3xl font-bold font-heading hover:scale-110" href="/">
             <img
-              className="w-28 h-20 invert"
+              className="w-20 h-20 invert"
               src="https://res.cloudinary.com/draig/image/upload/v1699045270/portolio-personal/jlcdcijnaqntxa7t4jns.png"
-              alt="logo"
+              alt="Agustin Avellaneda"
             />
           </a>
           <a href="/about" className="hover:underline hover:scale-110">
@@ -36,16 +36,17 @@ export default function Navbar({ messages }: { messages: Messages }) {
           <button
             type="button"
             onClick={() => setLocale(otherLocale, pathname)}
-            className="hover:underline hover:scale-110 flex items-center gap-0.5"
+            className="hover:underline hover:scale-110 flex items-center gap-0.5 rounded-full border-1 border-white "
             aria-label={locale === "en" ? "Switch to Spanish" : "Cambiar a inglés"}
           >
             {locale === "en" ? (
               <>
-                <span className="text-[#0065B3]">ES</span>/EN
+                <img src="/flag-arg.svg" alt="Spanish" className="w-6 h-6 rounded-full " />
+
               </>
             ) : (
               <>
-                ES/<span className="text-[#0065B3]">EN</span>
+                <img src="/flag-usa.svg" alt="English" className="w-6 h-6 rounded-full" />
               </>
             )}
           </button>

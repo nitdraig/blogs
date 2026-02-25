@@ -1,4 +1,4 @@
-import { projects } from "@/lib/projects";
+import { ProjectsCarousel } from "@/app/components/ProjectsCarousel";
 import {
   FaGithub,
   FaLinkedin,
@@ -17,16 +17,16 @@ export default function AboutView({
   messages: Messages;
 }) {
   return (
-    <section className="lg:px-10 px-2 pt-4 pb-8">
+    <section className="lg:px-10 px-2 pt-4 pb-8 min-h-screen">
       <div className="mx-auto flex flex-col items-center space-y-8">
         <img
           className="w-28 -mb-6 rounded-full"
-          src="./profile.webp"
+          src="/profile.webp"
           alt="Agustin Profile"
         />
         <div className="flex lg:mt-1">
           <p className="text-2xl text-bold">Agustín Avellaneda</p>
-          <img src="./verified.png" className="w-6 h-6 mt-[0.23rem] ml-1" alt="" />
+          <img src="/verified.png" className="w-6 h-6 mt-[0.23rem] ml-1" alt="" />
         </div>
       </div>
       <div className="flex h-full mx-auto flex-col space-y-4 text-center">
@@ -40,25 +40,8 @@ export default function AboutView({
           </p>
         </div>
         <span className="font-bold">{messages.about.someProjects}</span>
-        <div className="text-md">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-2 mx-10">
-            {projects.map((project, index) => (
-              <div key={index} className="flex mx-10 flex-col items-center">
-                <a href={project.link} target="_blank" rel="noopener noreferrer">
-                  <img
-                    src={project.image}
-                    alt={`${project.name} Icon`}
-                    className="mb-2 w-16"
-                  />
-                </a>
-                <p>
-                  <strong className="uppercase">{project.name}</strong>
-                  <br />
-                  <span className="text-sm">{project.description}</span>
-                </p>
-              </div>
-            ))}
-          </div>
+        <div className="text-md w-full max-w-4xl mx-auto">
+          <ProjectsCarousel />
         </div>
         <div className="mt-4">
           <p className="text-md">{messages.about.contactMe}</p>
@@ -84,7 +67,7 @@ export default function AboutView({
               />
             </a>
             <a
-              href="https://www.linkedin.com/in/avellaneda-agust%C3%ADn-tns"
+              href="https://www.linkedin.com/in/avellaneda-agustin"
               target="_blank"
               rel="noopener noreferrer"
             >

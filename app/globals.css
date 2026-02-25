@@ -26,3 +26,20 @@ html {
   color: white;
   background: #000;
 }
+
+@keyframes carousel-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.carousel-track {
+  animation: carousel-scroll 25s linear infinite;
+}
+.carousel-track:hover,
+.group-carousel:hover .carousel-track {
+  animation-play-state: paused;
+}
