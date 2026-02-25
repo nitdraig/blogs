@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://blog.agustin.top/">
-    <img src="https://res.cloudinary.com/draig/image/upload/v1721879796/portolio-personal/icqgvg2j7br8opbasotz.png" alt="Blog Logo" width="200" height="200">
+    <img src="https://github.com/nitdraig/blogs/blob/master/public/logo.png" alt="Blog Logo" width="200" height="200">
   </a>
 </p>
 <h3 align="center">Agustin's Perceptions | Blog</h3>
