@@ -1,0 +1,44 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "portfolio": "Portfolio",
+    "langSwitch": "EN"
+  },
+  "home": {
+    "welcome": "Bienveni@ a este espacio de reflexión",
+    "aboutMe": "Acerca de mí",
+    "contact": "Contacto",
+    "myPosts": "Mis posts:",
+    "seeAllPosts": "Ver todos los posts"
+  },
+  "blog": {
+    "title": "Mis Blogs",
+    "allPosts": "Todos los posts"
+  },
+  "about": {
+    "role": "Project Manager & Fullstack Web Developer 🌐",
+    "bio1": "Mi foco es crear productos estrellas.",
+    "bio2": "Lidero equipos de alto rendimiento y enfocados en agile.",
+    "bio3": "Gamer ocasional, productor musical, calistenico amateur y amante del mundo audiovisual.",
+    "someProjects": "Algunos de mis proyectos:⭐",
+    "contactMe": "Puedes contactarme por mis redes. ;)",
+    "seePosts": "Ver posts"
+  },
+  "post": {
+    "sharePrompt": "No te olvides de compartirlo con quién creas que pueda servirle esta información",
+    "allPosts": "Todos los posts",
+    "postedOn": "Publicado:",
+    "notFound": "Post no encontrado"
+  },
+  "footer": {
+    "quote": "Buscar lo bueno en los demás nos ayudará a encontrar lo bueno en nosotros mismos - Platón",
+    "developed": "Desarrollado con",
+    "by": "por Avellaneda Agustín."
+  },
+  "filter": {
+    "recent": "Recientes"
+  },
+  "share": {
+    "invite": "Te invito a leer este interesante post:"
+  }
+}

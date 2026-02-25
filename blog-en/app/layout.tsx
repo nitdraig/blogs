@@ -5,11 +5,11 @@ import Navbar from "./components/Navbar";
 const image =
   "https://res.cloudinary.com/draig/image/upload/v1724254365/portolio-personal/blog/images-open-graph/rab00fyxg7jioeg2mvfe.png";
 export const metadata = {
-  title: "Agustín's Perceptions",
+  title: "Agustin's Perceptions",
   description:
     "A simple, short and debatable blog about everything in the IT world",
   keywords: [
-    "Agustín Avellaneda",
+    "Agustin Avellaneda",
     "Freelance developer",
     "Fullstack developer",
     "Web development",
@@ -58,24 +58,24 @@ export const metadata = {
       url: image,
       width: 800,
       height: 600,
-      alt: "Avellaneda Agustín, Desarrollador web Fullstack",
+      alt: "Avellaneda Agustin, Desarrollador web Fullstack",
       name: "avellaneda-agustin-fullstack-developer.png",
     },
     {
       url: image,
       width: 1800,
       height: 1600,
-      alt: "Avellaneda Agustín",
+      alt: "Avellaneda Agustin",
       name: "avellaneda-agustin.png",
     },
   ],
   twitter: {
     card: "summary_large_image",
     title:
-      "Avellaneda Agustín | Fullstack Web Developer | A simple, short and debatable blog about everything in the IT world",
+      "Avellaneda Agustin | Fullstack Web Developer | A simple, short and debatable blog about everything in the IT world",
     description:
-      "Avellaneda Agustín, Fullstack Web Developer | A simple, short and debatable blog about everything in the IT world",
-    creator: "Avellaneda Agustín",
+      "Avellaneda Agustin, Fullstack Web Developer | A simple, short and debatable blog about everything in the IT world",
+    creator: "Avellaneda Agustin",
     images: [image],
   },
 
@@ -97,7 +97,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <link rel="canonical" href="https://en.blog.agustin.top" />
+      <link rel="canonical" href="https://blog.agustin.top" />
       <body className="bg-[#E9E9E9]">
         <Navbar />
         {children}

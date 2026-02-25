@@ -1,0 +1,44 @@
+{
+  "nav": {
+    "about": "About Me",
+    "portfolio": "Portfolio",
+    "langSwitch": "ES"
+  },
+  "home": {
+    "welcome": "Welcome to this space for reflexion",
+    "aboutMe": "About me",
+    "contact": "Contact",
+    "myPosts": "My posts:",
+    "seeAllPosts": "See all posts"
+  },
+  "blog": {
+    "title": "All My Posts",
+    "allPosts": "All Posts"
+  },
+  "about": {
+    "role": "Project Manager & Fullstack Web Developer 🌐",
+    "bio1": "My focus is to create star products.",
+    "bio2": "I lead high-level teams performance and focused on agile.",
+    "bio3": "Occasional gamer, music producer, amateur calisthenician and lover of audiovisual world.",
+    "someProjects": "Some of my projects:⭐",
+    "contactMe": "You can contact me through my networks. ;)",
+    "seePosts": "See posts"
+  },
+  "post": {
+    "sharePrompt": "Dont forget to share it with whoever you think might be useful. this information",
+    "allPosts": "All Posts",
+    "postedOn": "Posted on:",
+    "notFound": "Post Not Found"
+  },
+  "footer": {
+    "quote": "Looking for the good in our fellow men will help us find the good in ourselves - Plato",
+    "developed": "Develop with",
+    "by": "by Avellaneda Agustín."
+  },
+  "filter": {
+    "recent": "Recent"
+  },
+  "share": {
+    "invite": "I invite you to read this interesting post:"
+  }
+}
