@@ -27,7 +27,7 @@ export function PostCover({ postId, title, date }: Props) {
         </h1>
         <div className="flex items-center mt-3 gap-3">
           <img
-            src="https://res.cloudinary.com/draig/image/upload/v1688837501/portolio-personal/axdmv6onpysqg8djney0.png"
+            src="/profile.webp"
             className="h-10 w-10 rounded-full object-cover ring-2 ring-white/30"
             alt=""
           />

@@ -9,8 +9,7 @@ import { PostCover } from "@/app/components/PostCover";
 
 const BASE_URL =
   process.env.NEXT_PUBLIC_BLOG_URL || "https://blog.agustin.top";
-const DEFAULT_OG_IMAGE =
-  "https://res.cloudinary.com/draig/image/upload/v1724254365/portolio-personal/blog/images-open-graph/rab00fyxg7jioeg2mvfe.png";
+const DEFAULT_OG_IMAGE = "/og-image.png";
 
 export async function generateStaticParams() {
   const enPosts = getSortedPostsData("en");

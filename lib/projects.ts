@@ -55,6 +55,6 @@ export const projects = [
     name: "See more",
     description: "My portfolio",
     link: "https://agustin.top",
-    image: "./logo.png",
+    image: "/logo.png",
   },
 ];

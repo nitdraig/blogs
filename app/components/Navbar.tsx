@@ -18,7 +18,7 @@ export default function Navbar({ messages }: { messages: Messages }) {
           <a className="text-3xl font-bold font-heading hover:scale-110" href="/">
             <img
               className="w-20 h-20 invert"
-              src="https://res.cloudinary.com/draig/image/upload/v1699045270/portolio-personal/jlcdcijnaqntxa7t4jns.png"
+              src="/logo.png"
               alt="Agustin Avellaneda"
             />
           </a>
