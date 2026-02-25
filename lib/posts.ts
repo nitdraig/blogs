@@ -55,3 +55,37 @@ export async function getPostData(id: string, locale: Locale) {
   };
   return blogPostWithHTML;
 }
+
+/** Plain text excerpt and read time for API / embeds */
+function stripMarkdown(text: string): string {
+  return text
+    .replace(/#{1,6}\s/g, "")
+    .replace(/\*\*(.+?)\*\*/g, "$1")
+    .replace(/\*(.+?)\*/g, "$1")
+    .replace(/_(.+?)_/g, "$1")
+    .replace(/\[(.+?)\]\(.+?\)/g, "$1")
+    .replace(/`(.+?)`/g, "$1")
+    .replace(/\n+/g, " ")
+    .trim();
+}
+
+const WORDS_PER_MINUTE = 200;
+
+export function getPostExcerptAndReadTime(id: string, locale: Locale): {
+  excerpt: string;
+  readTime: string;
+} {
+  const fullPath = path.join(getPostsDirectory(locale), `${id}.md`);
+  if (!fs.existsSync(fullPath)) return { excerpt: "", readTime: "—" };
+
+  const fileContents = fs.readFileSync(fullPath, "utf8");
+  const { content } = matter(fileContents);
+  const plain = stripMarkdown(content);
+  const excerpt = plain.slice(0, 160).trim();
+  const words = plain.split(/\s+/).filter(Boolean).length;
+  const minutes = Math.max(1, Math.ceil(words / WORDS_PER_MINUTE));
+  return {
+    excerpt: excerpt + (plain.length > 160 ? "…" : ""),
+    readTime: `${minutes} min read`,
+  };
+}
